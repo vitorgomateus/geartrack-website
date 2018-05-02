@@ -165,6 +165,20 @@ body {
     cursor: help;
 }
 
+/* Panel-info
+   ========================================================================== */
+@media (min-width: 992px){ /* -- only desktop though */
+    .panel-info{
+        position: fixed; /* --- it's nice to have it fixed while we scroll down. */
+        width: 315px;
+    }
+}
+@media (min-width:1200px){
+    .panel-info{
+        width: 370px;
+    }
+}
+
 /* Timeline
    ========================================================================== */
 .result-details dt {
